@@ -1,6 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+
+<div class="col-md-3">
+    @include('includes.sidebar')
+</div>
+<div class="col-md-9">
+
 <!-- Popular -->
 <h1 class="text-center p-2">Popular products</h1>
     <div class="row item-section">
@@ -66,5 +72,5 @@
     </div>
 
     <!-- End men -->
-
+</div>
 @endsection
